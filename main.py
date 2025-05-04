@@ -59,10 +59,6 @@ def remove_name(text):
         return text[len(prefix):]
     return text
 
-@bot.command(name='время')
-async def set_channel(ctx):
-    await ctx.send(f"Дима долбаёб")
-
 @bot.command(name='закрепить')
 async def set_channel(ctx):
     """Закрепляет бота в текущем канале"""
